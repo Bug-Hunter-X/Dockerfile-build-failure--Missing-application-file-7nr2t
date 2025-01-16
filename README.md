@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: failure to include the application code. The initial Dockerfile attempts to run a Python script (main.py), but this file is not copied into the image. The corrected version adds a proper COPY command to include the necessary files.
